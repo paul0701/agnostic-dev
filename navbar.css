@@ -1,0 +1,19 @@
+nav.navbar {
+    z-index: 1;
+    background-color: rgba(7, 64, 169, 0.95);
+    position: fixed;
+    top: 0;
+}
+
+.container-fluid a {
+    color: #fff;
+    letter-spacing: .1rem;
+}
+
+.nav-item a {
+    color: #fff;
+}
+
+.burger {
+    font-size: 4vw;
+} 
