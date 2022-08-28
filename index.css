@@ -1,80 +1,58 @@
 * {
-    font-family: 'Roboto Slab', serif;
-    
-  }
-
-.page-one {
-    position: relative;
-    display: grid;
-    place-items: center;
-    background-color: rgb(46, 87, 164);
-    max-width: 100vw;
-    height: 70vh;
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-    margin-bottom: -10vh;
-  }
-
-  .page-two {
-    position: relative;
-    background-color: rgb(92, 76, 218);
-    font-size: 2vw;
-    max-width: 100vw;
-    height: 100vh;
-    z-index: -1;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
-    margin-bottom: -10vh;
-  }
-
-  .page-three {
-    position: relative;
-    text-align: center;
-    max-width: 100vw;
-    background-color: aqua;
-    height: 180vh;
-    z-index: -2;
-  }
-
-  .about-me {
-    width: 90vw;
-    height: 90vh;
-  }
-  .image {
-    background-image: url('https://user-uploads-thumbs.shutterstock.com/aws-cloudfront-user-asset-uploads-prod-us-east-1/uploads/c4b822e5-6aa3-4f25-8cab-25dae2a5d6f0/p/52979a510604a097de43e0cde9872679e2634259/1654535429686/IMG-20210530-WA0031/png/1654535435/1500x1500/fit/84124c2e7f29828869cf2466b0baf11521ed8879/IMG-20210530-WA0031.jpg');
-    background-size: cover;
-    margin: 0 auto;
-    width: 20vw;
-    height: 20vw;
-    transform: rotate(-32deg);
-    border-radius: 10vw;
-   
+  font-family: 'Roboto Slab', serif;
 }
 
+.page-one {
+  position: relative;
+  background-color: #ffffff;
+
+}
+.page-two {
+  position: relative;
+  background-color: #ffffff;
+}
+.page-three {
+  position: relative;
+  background-color: #0f0a1f;
+}
+
+.page-four {
+  position: relative;
+  background-color: #ffffff;
+}
+
+.grey {
+  color: #ffa400;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  padding-top: 4vw;
+  font-size: 4vw;
+  height: 24vw;
+  color: #fff;
+  background-color: #ff495c;
+}
+
+
+.bootstrap {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bootstrap:hover {
+  color: #0e0b16;
+}
+
+@media screen and (min-width: 1350px) {
+
   .footer {
-    position: absolute;
-    bottom: 1%;
-    left: 0;
-    right: 0;
+    font-size: .75vw;
+    height: 8vh;
+    padding-top: 2.5vh;
+    font-size: 1.5vh;
   }
-
-  @media screen and (max-width: 1050px) {
-    .page-one {
-        height: 60vh;
-    }
-    .image {
-        width: 30vw;
-        height: 30vw;
-        border-radius: 15vw;
-    }
-
-  }
-  @media screen and (max-width: 750px) {
-    .page-one {
-        height: 60vh;
-    }
-    .image {
-        width: 60vw;
-        height: 60vw;
-        border-radius: 30vw;
-    }
-
-  }
+}

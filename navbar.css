@@ -1,6 +1,7 @@
 nav.navbar {
-    z-index: 1;
-    background-color: rgba(7, 64, 169, 0.95);
+    z-index: 10;
+    background-color: #ff495c;
+    opacity: .9;
     position: fixed;
     top: 0;
 }
@@ -10,10 +11,12 @@ nav.navbar {
     letter-spacing: .1rem;
 }
 
-.nav-item a {
-    color: #fff;
+.container-fluid a:hover {
+    transform: scale(1.1);
+    color: #0e0b16;
 }
 
 .burger {
+    color: #fff;
     font-size: 4vw;
 } 
