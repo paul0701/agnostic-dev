@@ -3,9 +3,13 @@
     position: absolute;
     top: 20vh;
     left: 5vw;
-    width: 75vw;
-    clip-path: circle(40%);
-    transform: rotate(-32deg);
+    background-image: url('https://user-uploads-thumbs.shutterstock.com/aws-cloudfront-user-asset-uploads-prod-us-east-1/uploads/c4b822e5-6aa3-4f25-8cab-25dae2a5d6f0/p/52979a510604a097de43e0cde9872679e2634259/1654535429686/IMG-20210530-WA0031/png/1654535435/1500x1500/fit/84124c2e7f29828869cf2466b0baf11521ed8879/IMG-20210530-WA0031.jpg');
+    background-size: cover;
+    z-index: 2;
+    width: 60vw;
+    height: 60vw;
+    clip-path: circle(50%);
+    transform: rotate(-36deg);
 }
 
 .about-me {
@@ -22,9 +26,9 @@
 
 /*MEDIA QUERIES*/
 @media screen and (min-width: 1350px) {
-    .image-container {
-        flex-direction: row;
-   }
+    .image {
+        width: 20vw;
+    }
     .about-me {
         font-size: 1.5vw;
    }

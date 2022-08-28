@@ -21,6 +21,29 @@
   background-color: #ffffff;
 }
 
+.who {
+  position: absolute;
+  bottom: 40vh;
+  right: 12vw;
+  padding: 1vw;
+  font-size: 5vw;
+  color: #0f0a1f;
+  z-index: 1;
+  text-decoration: none;
+  border-radius: 1vw;
+  clip-path: inset(0 0 0 85%);
+  transition: 1s ease-out;
+
+}
+
+.who:hover {
+  clip-path: inset(0 0 0 0);
+  transition: 1s ease-in;
+  background-color: #ffa400;
+  color: #0f0a1f;
+}
+
+
 .grey {
   color: #ffa400;
 }
