@@ -1,0 +1,31 @@
+
+.image {
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+    width: 75vw;
+    clip-path: circle(40%);
+    transform: rotate(-32deg);
+}
+
+.about-me {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #ffffff;
+    width: 75%;
+    font-size: 4vw;
+    border: solid #ffffff;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 1350px) {
+    .image-container {
+        flex-direction: row;
+   }
+    .about-me {
+        font-size: 1.5vw;
+   }
+}
